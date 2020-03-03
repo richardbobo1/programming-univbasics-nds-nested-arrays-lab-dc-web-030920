@@ -64,7 +64,7 @@ def matrix_lookup(matrix, row, column)
   "Grapes",
   "Avocadoes",
   "Asparagus"
-]
+].
 
  [
   "Grapefruit",
