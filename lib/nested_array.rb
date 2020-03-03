@@ -30,26 +30,10 @@ def assembled_matrix
 end
 
 def sorted_matrix
-  product_storage_room = [
-    
-    [
-  "Grapefruit",
-  "Pineapple",
-  "Oranges",
-  "Watermelon",
-  "Eggplant"
-],
- [
-  "Strawberries",
-  "Potatoes",
-  "Grapes",
-  "Avocadoes",
-  "Asparagus"
-]
-    ]
+
   
-  product_storage_room[0].sort 
-  product_storage_room[1].sort 
+  CONVENTIONAL_PRODUCE.sort 
+  ORGANIC_PRODUCE.sort 
   
   # Using Array literal syntax only, build another nested array that 
   # uses the arrays of conventional and organic produce as before.
