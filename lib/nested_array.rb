@@ -44,15 +44,17 @@ end
 
 def matrix_lookup(matrix, row, column)
   
-  matrix[row][column]
+  one = matrix[row][column]
   
-  matrix_lookup(assembled_matrix, 1, 1)
+  one 
+  
+
 
   
   # Given any matrix (array of arrays), a row index and a column index, 
   # Return the matri
 end
-
+  matrix_lookup(assembled_matrix, 1, 1)
 
 
 def matrix_update(matrix, row, column, new_value)
